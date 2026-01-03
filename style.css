@@ -1039,3 +1039,18 @@ body {
 }
 
 
+/* ===== DISABLE HOVER ON TOUCH DEVICES ===== */
+@media (hover: none) and (pointer: coarse) {
+
+  .boxMail .boxMail-container:hover {
+    transform: none !important;
+  }
+
+  .boxMail .boxMail-container:hover .card1,
+  .boxMail .boxMail-container:hover .card2 {
+    transform: none !important;
+  }
+}
+
+
+
